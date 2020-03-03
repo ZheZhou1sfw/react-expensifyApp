@@ -1,0 +1,5 @@
+// a json file providing persets for babel
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["@babel/plugin-proposal-class-properties", "transform-class-properties"]
+  }
