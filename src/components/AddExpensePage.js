@@ -5,8 +5,8 @@ import { addExpense } from '../actions/expenses';
 
 export class AddExpensePage extends React.Component {
   onSubmit = (expense) => {
-    props.onSubmit(expense);
-    props.history.push('/'); // switch back
+    this.props.onSubmit(expense);
+    this.props.history.push('/'); // switch back
   };
   render() {
     return (
